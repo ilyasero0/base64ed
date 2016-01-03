@@ -35,7 +35,7 @@ public class base64ed {
                 }
 
                 case 2: {
-                    Write("cmd > encode > ");
+                    Write("cmd > decode > ");
                     Scanner in2 = new Scanner(System.in);
                     EnterText = in2.nextLine();
                     bytesDeEncode = Base64.getDecoder().decode(EnterText.getBytes());
